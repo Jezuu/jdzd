@@ -1,0 +1,21 @@
+{
+  "name": "jezuu/jdzd",
+  "description": "dd Laravel",
+  "homepage": "https://github.com/jdzd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+      {
+        "name": "Jezuu",
+        "homepage": "https://github.com/Jezuu"
+      }
+  ],
+  "minimum-stability":"stable",
+  "require": {
+    "symfony/var-dumper": "*"
+  },
+  "autoload": {
+    "files": ["src/helper.php"]
+  }
+}
